@@ -1,8 +1,12 @@
 os: linux
 
 arch:
-    - arm64
+    - arm64-graviton2
     - amd64
+
+virt: lxd
+
+group: edge
 
 language: python
 
